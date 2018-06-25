@@ -1,44 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="ccs/normalize.css">
       <link rel="stylesheet" href="css/main.css">
       <title>Ary Vidot | Web Developer</title>
     </head>
 
-  <body>
-  <!--Navigation-->
-      <div class="navigation">
-        <div class="logo">
-          <a href="#" class="link-logo"></a>
+    <body>
+
+  <!-- Mobile-Navigation -->
+  <div id="mobileNav" data-content-field="<navigation-mobileNav">
+        <div class="navigation">
+          <!-- Mobile Menu -->
+              <nav class="main-nav">
+                <div class="nav-wrapper">
+                  <ul class="cf">
+                    <li><a href="#work" class="index-collection folder"><span>Work</span></a></li>
+                    <li><a href="#about" class="index-collection folder"><span>About</span></a></li>
+                    <li><a href="#connect" class="index-collection folder"><span>Connect</span></a></li>
+                  </ul>
+                </div>
+          <!-- /End Mobile Menu -->
+              </nav>
         </div>
-      <!--Menu-->
-            <nav class="menu">
-              <ul>
-                <li><a href="#" class="work"></a>Work</li>
-                <li><a href="#" class="about"></a>About</li>
-                <li><a href="#" class="connect"></a>Connect</li>
-              </ul>
-            </nav>
-      <!--/Menu-->
-      </div>
-  <!--/Navigation-->
+  </div>
+  <!--/End Mobile Navigation -->
 
-<!--Landing page-->
-      <header id="showcase">
-  .
-        <div id="home" class="background-main">
+  <!--Landing page-->
+  <main>
+    <div class="site-wrapper">
+      <div class="site-inner-wrapper">
+        <header id="header" class="announcement-bar">
+          <div class="title-nav-wrapper">
+            <h1 data-content-field="site-title" class="site-title">
+              <a href="#AryVidot" id="top"> Ary Vidot
+              </a>
+            </h1>
+            <a href="" class="icon-menu" id="mobileMenu">
+              <!--::before-->
+            </a>
+            <!--MAIN NAVIGATION-->
+            <div id="deskstopNav" data-content-field="navigation-mainNav">
+              <nav class="main-nav">
+                <div class="nav-wrapper">
+                  <ul class="cf">
+                    <li class="index-collection folder">
+                      <a href="#projects">
+                        <span>Projects</span>
+                      </a>
+                    </li>
+                    <li class="index-collection folder">
+                      <a href="#about">
+                        <span>About</span>
+                      </a>
+                    </li>
+                    <li class="index-collection folder">
+                      <a href="#connect">
+                        <span>Connect</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </header>
+      <div id="home">
+          <section id="home-hero" class="hero">
+            <div class="wrapper">
+                  <article class="message">
+                    <h1>I’m Ary</h1>
+                    <div class="messsage1">
+                      <p>I'm a web developer, thinker, husband and father, <br>born in Reunion Island. <br> Currently living in <span class="crossed">Nice, France</span>, <span class="crossed">Vitoria Gasteiz, Spain</span>, <span class="crossed">Montpelllier, France</span>, <span class="crossed">Paris, France</span>, London, England.</p>
+                    </div>
+                    <div class="message2">
+                      <p>More than 10 years ago, I bought “How to build website for dummies” and never really engaged. Today, the opportunity to spend more quality time with my family made web development the place where I want to thrive.</p>
+                    </div>
+                  </article>
+              </div>
+          </section>
+  <!--/End Landing page-->
 
-          <h1>I’m Ary</h1>
-            <p>I'm a web developer, thinker, husband and father, born in Reunion Island. <br> Currently living in <span class="crossed">Nice, France</span>, <span class="crossed">Vitoria Gasteiz, Spain</span>, <span class="crossed">Montpelllier, France</span>, <span class="crossed">Paris, France</span>, London, England.</p>
-            <p>More than 10 years ago, I bought “How to build website for dummies” and never really engaged. Today, the opportunity to spend more quality time with my family made web development the place where I want to thrive.
-            </p>
+  <!--work section -->
+        <section id="projects">
+          <div class="wrapper">
+            <article>
+              <a href="#1"><img src="#1" alt="Project#1">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perferendis veniam, porro, voluptates autem quisquam fugit soluta. Nobis, temporibus labore.</p>
+              </a>
+            </article>
+            <article>
+              <a href="#2"><img src="#2" alt="Project#2">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perferendis veniam, porro, voluptates autem quisquam fugit soluta. Nobis, temporibus labore.</p>
+              </a>
+            </article>
+            <article>
+              <a href="#3"><img src="#3" alt="Project#3">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perferendis veniam, porro, voluptates autem quisquam fugit soluta. Nobis, temporibus labore.</p>
+              </a>
+            </article>
+            <article>
+              <a href="#4"><img src="#4" alt="Project#4">
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perferendis veniam, porro, voluptates autem quisquam fugit soluta. Nobis, temporibus labore.</p>
+              </a>
+            </article>
+          </div>
+        </section>
+  <!--/End work section-->
+
+  <!--About Section-->
+      <section id="about" class="about">
+        <div class="wrapper">
+            <div>
+                <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum mollitia sunt optio omnis, eveniet obcaecati! Similique ducimus magnam reiciendis ipsa distinctio asperiores vel, debitis aliquid, vitae, nobis veritatis eos dolores saepe modi! Ab ad dolorum reprehenderit voluptatem assumenda beatae rerum est, doloremque perferendis eum explicabo tempore, quas facilis, repellendus sunt.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse repellendus possimus est accusantium atque ad deleniti rem molestiae, sed laborum, minima, adipisci animi ipsum. Aliquam ut possimus voluptates quos explicabo pariatur nostrum? Vitae optio quos, magnam incidunt assumenda beatae. Facilis, corrupti incidunt similique officiis delectus necessitatibus ducimus quia at nulla enim beatae dolorum! Odit nemo eveniet delectus magnam eos cupiditate repellendus quos nobis. Voluptates consequuntur </p>
+                <p>Laborum repellendus expedita quibusdam voluptas veritatis officia quae natus. Ullam ad, sunt! Dignissimos eaque officia dolor sint veniam quis at, unde, incidunt quibusdam. Molestias voluptatum nesciunt laboriosam eos architecto repudiandae provident eligendi dicta adipisci veritatis!</p>
+            </div>
         </div>
-      </header>
+      </section>
+  <!--/End About Section-->
 
-<!--/Landing page-->
-
-  </body>
+  <!--Connect section-->
+        <section id="connect" class="connect">
+              <div class="wrapper">
+                <ul>
+                  <li><img src="#" alt="Email Logo"><a href="mailto:aryvid@gmail.com">aryvid@gmail.com</a>email</li>
+                  <li><img src="#Github" alt="Github logo">Github</li>
+                  <li><img src="#LinkedIn" alt="LinkedIn Logo">LinkedIn</li>
+                  <li><img src="#Twitter" alt="Twitter Logo">Twitter</li>
+                  <li><img src="#Dribble" alt="Dribble Logo">Dribble</li>
+                </ul>
+              </div>
+        </section>
+  <!--/End Connect section-->
+        </div>
+      <footer>
+        <small>Ary Vidot 2018 - London</small>
+      </footer>
+    </main>
+  </div>
+</div>
+    </body>
 </html>
