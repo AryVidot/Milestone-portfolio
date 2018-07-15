@@ -1,65 +1,61 @@
 body, html{
-  height: 100%;
   margin:0;
+  padding: 0;
   font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#666;
+  color:#d9d9d9;
 }
 
-/*
-.hero, .projects, .about{
-  position:relative;
-  opacity:0.70;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-*/
-/*
 #home-hero{
   background: url("../img/home.jpg");
-  opacity:0.70;
-  min-height:100%;
-  background-position:center;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
 }
-*/
+
+.crossed{
+  text-decoration: line-through;
+}
 
 #projects{
-  background-color: url("../img/projects1.jpg");
-  opacity:0.70;
-  min-height:100%;
-  background-position:center;
+  background: url("../img/projects1.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat:no-repeat;
-
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
 }
 
 #about{
-  background-color: url("../img/about1.jpg");
-  opacity:0.70;
-  min-height:100%;
-  background-position:center;
+  background: url("../img/about1.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat:no-repeat;
-
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+#connect{
+  background: url("../img/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+.projects{
+  display: inline-flex;
 }
 
-#connect{
-  background: url("../img/connect2.jpg");
-  opacity:0.70;
-  background-position:center;
-  min-height:100%;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat:no-repeat;
-
-
-  ;
+.active{
+  border: 5px solid red;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: right;
 }
