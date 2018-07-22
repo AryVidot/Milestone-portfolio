@@ -1,0 +1,54 @@
+#home-hero{
+  background: url("../img/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+#home{
+  text-align: left;
+
+}
+
+#projects{
+  background: url("../img/projects1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+#about{
+  background: url("../img/about1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+#connect{
+  background: url("../img/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.projects{
+  display: inline-flex;
+}
+
+.active{
+  border: 5px solid red;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: right;
+}
